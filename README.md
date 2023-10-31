@@ -1,5 +1,24 @@
-# Welcome to GitHub Desktop!
+$ mkdir Desktop/git_exercise/
+$ cd Desktop/git_exercise/
+$ git init
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+///
+git add .
+git reset css/style.css
+git rm text.txt
+///
+git commit -m 'Add some code'
+git commit --amend -m 'New comment'
+git log
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+
+
+git clone https://github.com/Maks-Sadg/desktop-tutorial.git
+//подключение
+git remote add origin https://github.com/Maks-Sadg/desktop-tutorial.git
+
+//Отправка изменений на сервер
+$ git push origin master
+
+//Запрос изменений с сервера
+git pull origin master
