@@ -57,3 +57,20 @@ git push origin master
 ##Запрос изменений с сервера
 
 git pull origin master
+
+##SSH
+
+ssh-keygen -t ed25519-sk -C "your_email@example.com"
+
+ввели пароль
+
+clip < ~/.ssh/id_ed25519.pub
+
+В GH добавили открытый ключ.
+
+Создали репозиторий локально
+
+git clone git@github.com:Maks-Sadg/desktop-tutorial.git
+
+ 
+
